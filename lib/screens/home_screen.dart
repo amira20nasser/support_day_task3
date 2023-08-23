@@ -82,45 +82,45 @@ List<Tab> items = [
   ),
   Tab(
     icon: const Icon(
-      Icons.chat_outlined,
+      Icons.list_alt_outlined,
       color: Colors.grey,
     ),
-    label: "Chat",
+    label: "Orders",
     activeIcon: const Icon(
-      Icons.chat,
+      Icons.list_alt,
       color: Color(0xFFFF5A00),
     ),
   ),
   Tab(
     icon: const Icon(
-      Icons.calendar_month_outlined,
+      Icons.confirmation_num_outlined,
       color: Colors.grey,
     ),
-    label: "Calendar",
+    label: "Vouchers",
     activeIcon: const Icon(
-      Icons.calendar_month,
+      Icons.confirmation_num,
       color: Color(0xFFFF5A00),
     ),
   ),
   Tab(
     icon: const Icon(
-      Icons.notifications_none,
+      Icons.bookmark_add_outlined,
       color: Colors.grey,
     ),
-    label: "Notification",
+    label: "Offers",
     activeIcon: const Icon(
-      Icons.notifications,
+      Icons.bookmark_add,
       color: Color(0xFFFF5A00),
     ),
   ),
   Tab(
     icon: const Icon(
-      Icons.notifications_none,
+      Icons.account_circle_outlined,
       color: Colors.grey,
     ),
-    label: "Notification",
+    label: "Profile",
     activeIcon: const Icon(
-      Icons.notifications,
+      Icons.account_circle,
       color: Color(0xFFFF5A00),
     ),
   ),

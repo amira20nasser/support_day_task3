@@ -5,6 +5,11 @@ class OffersTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Center(
+      child: Text(
+        "offers",
+        style: TextStyle(fontSize: 100),
+      ),
+    );
   }
 }

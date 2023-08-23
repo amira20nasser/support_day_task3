@@ -21,11 +21,11 @@ class HomeTab extends StatelessWidget {
         children: [
           Row(
             children: [
-              CircleAvatar(
+              const CircleAvatar(
                 backgroundImage: AssetImage("assets/images/stu.jpeg"),
                 radius: 30,
               ),
-              SizedBox(
+              const SizedBox(
                 width: 20,
               ),
               Column(
@@ -38,7 +38,7 @@ class HomeTab extends StatelessWidget {
                       fontSize: 18,
                     ),
                   ),
-                  Text(
+                  const Text(
                     "Amira Nasser",
                     style: TextStyle(
                       color: Colors.black,
@@ -61,9 +61,9 @@ class HomeTab extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.only(left: 48),
-                    child: const Text(
+                  const Padding(
+                    padding: EdgeInsets.only(left: 48),
+                    child: Text(
                       "Talabat",
                       style: TextStyle(
                         color: Color(0xFFFF5A00),
@@ -157,7 +157,7 @@ class HomeTab extends StatelessWidget {
                   ))
             ],
           ),
-          SizedBox(height: 10),
+          const SizedBox(height: 10),
           Expanded(
             flex: 2,
             child: ListView.separated(
@@ -200,10 +200,10 @@ class ContainerSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        color: Color(0xFFFF5A00),
+        color: const Color(0xFFFF5A00),
         boxShadow: const [
           BoxShadow(
             offset: Offset(-3, 15),

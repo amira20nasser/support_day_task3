@@ -5,6 +5,11 @@ class OrdersTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Center(
+      child: Text(
+        "Orders",
+        style: TextStyle(fontSize: 100),
+      ),
+    );
   }
 }
