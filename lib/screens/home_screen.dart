@@ -22,9 +22,11 @@ class HomeScreen extends ConsumerWidget {
     return Scaffold(
       backgroundColor: const Color(0XFFEEEEEE),
       body: SafeArea(
-        child: Consumer(
-          builder: (BuildContext context, WidgetRef ref, Widget? child) =>
-              pages[ref.watch(bottomBarIndexProvider)],
+        child: SingleChildScrollView(
+          child: Consumer(
+            builder: (BuildContext context, WidgetRef ref, Widget? child) =>
+                pages[ref.watch(bottomBarIndexProvider)],
+          ),
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(

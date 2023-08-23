@@ -103,11 +103,11 @@ class SignUpScreen extends StatelessWidget {
                         value: true,
                         onChanged: (value) {},
                       ),
-                      const SizedBox(height: 110),
+                      const SizedBox(height: 30),
                       ElevatedButton(
                         onPressed: () {
                           if (keyForm.currentState?.validate() ?? false) {
-                            Navigator.push(
+                            Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => const HomeScreen(),
@@ -126,6 +126,7 @@ class SignUpScreen extends StatelessWidget {
                           "Create Account",
                           style: TextStyle(
                             fontSize: 20,
+                            color: Colors.white,
                           ),
                         ),
                       ),

@@ -96,8 +96,8 @@ class HomeTab extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 10),
-          Expanded(
-            flex: 1,
+          SizedBox(
+            height: 200,
             child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
@@ -158,8 +158,8 @@ class HomeTab extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 10),
-          Expanded(
-            flex: 2,
+          SizedBox(
+            height: 700,
             child: ListView.separated(
                 scrollDirection: Axis.vertical,
                 itemBuilder: (context, index) {
