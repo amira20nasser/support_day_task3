@@ -20,6 +20,7 @@ class HomeScreen extends ConsumerWidget {
       ProfileTab(),
     ];
     return Scaffold(
+      backgroundColor: const Color(0XFFEEEEEE),
       body: SafeArea(
         child: Consumer(
           builder: (BuildContext context, WidgetRef ref, Widget? child) =>
